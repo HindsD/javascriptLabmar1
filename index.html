@@ -6,9 +6,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="code.js"></script>
 </head>
-
+<body>
 <form>
-    <body>
+
     <label for="fname">First Name</label>
     <input id="fname" type="text">
 
@@ -32,14 +32,24 @@
 
 
 
-    <button>Get Grade</button>
+    <button id="addStudent">Add Student</button>
 
-    <p id="displayName"></p>
-    <p id="displayPercent"></p>
-    <p id="displayGrade"></p>
-
-
-
-    </body>
 </form>
+
+<button id="nameSort">Sort by Name</button>
+<button id="percentageSort">Sort by Percentage</button>
+
+<table>
+    <thead>
+    <tr>
+        <th>Student Name</th>
+        <th>Student Percent</th>
+    </tr>
+    </thead>
+
+    <tbody></tbody>
+
+</table>
+</body>
+
 </html>
